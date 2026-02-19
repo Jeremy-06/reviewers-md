@@ -3891,6 +3891,8 @@ php artisan migrate:fresh --seed
 
 5. **Interactive Mode**: Use `tinker` to test queries before putting them in code
 
+[⬆ Back to Top](#table-of-contents)
+
 ---
 
 ## 📋 Quick Reference Card
@@ -4047,6 +4049,8 @@ Schema::table('table', function ($table) {
 3. **How do you generate multiple records?** - `Model::factory()->count(50)->create()`
 4. **What library does Factory use?** - Faker PHP library
 
+[⬆ Back to Top](#table-of-contents)
+
 ---
 
 ## Part 2: Security & Authentication Answers
@@ -4093,6 +4097,8 @@ Schema::table('table', function ($table) {
 1. **What function hashes passwords?** - `bcrypt('password')` or `Hash::make('password')`
 2. **How do you verify a hashed password?** - `Hash::check('plain', $hashedPassword)`
 3. **Should you ever store plain passwords?** - NO, never! Always hash passwords
+
+[⬆ Back to Top](#table-of-contents)
 
 ---
 
@@ -4169,6 +4175,8 @@ Schema::table('table', function ($table) {
 4. **Where is cascade defined?** - In the migration when creating foreign key
 5. **Modern method for cascade?** - `->cascadeOnDelete()` and `->cascadeOnUpdate()`
 6. **When to use cascade vs manual delete?** - Cascade for strict relationships, manual for soft deletes or complex logic
+
+[⬆ Back to Top](#table-of-contents)
 
 ---
 
@@ -4255,6 +4263,8 @@ Schema::table('table', function ($table) {
 3. **Should `.env` be in version control?** - NO! It contains sensitive data
 4. **What file is an example?** - `.env.example` (safe to commit)
 
+[⬆ Back to Top](#table-of-contents)
+
 ---
 
 ## Part 5: Packages & Tools Answers
@@ -4300,6 +4310,8 @@ Schema::table('table', function ($table) {
 2. **What trait enables Sanctum tokens in a User model?** - `HasApiTokens`
 3. **What middleware protects API routes with Sanctum?** - `auth:sanctum`
 
+[⬆ Back to Top](#table-of-contents)
+
 ---
 
 ## Part 6: Artisan CLI Answers
@@ -4343,6 +4355,8 @@ Schema::table('table', function ($table) {
 
 1. **How do you see all registered routes?** - `php artisan route:list`
 2. **How do you filter routes by name?** - `php artisan route:list --name=keyword`
+
+[⬆ Back to Top](#table-of-contents)
 
 ---
 
